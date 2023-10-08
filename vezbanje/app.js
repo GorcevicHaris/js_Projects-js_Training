@@ -5685,4 +5685,4 @@
 
 // console.log("Faktorijel broja " + n + " je " + rezultat);
 //============================================================
-///////
+console.log("object");
