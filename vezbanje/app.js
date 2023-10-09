@@ -5686,7 +5686,6 @@
 // console.log("Faktorijel broja " + n + " je " + rezultat);
 //============================================================
 console.log("object");
-.//
 console.log("rad");
 console.log("object");
 
