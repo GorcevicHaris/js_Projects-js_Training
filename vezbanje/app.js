@@ -5685,9 +5685,39 @@
 
 // console.log("Faktorijel broja " + n + " je " + rezultat);
 //============================================================
-console.log("object");
-console.log("rad");
-console.log("object");
-//
-console.log("object");
-console.log("object");
+
+// let ime = "ana";
+// // console.log(ime.reverse());
+// console.log(ime.split("").reverse().join(""));
+// ime.split("").reverse().join("") == ime
+//   ? console.log("polindrom je")
+//   : console.log("nije");
+
+//===================================================
+// let ime = "asdad";
+// let counter = 0;
+// for (let i = 0; i < ime.length; i++) {
+//   if (
+//     ime[i] == "a" ||
+//     ime[i] == "e" ||
+//     ime[i] == "i" ||
+//     ime[i] == "o" ||
+//     ime[i] == "u"
+//   ) {
+//     counter++;
+//     console.log(counter);
+//   } else {
+//     console.log("nema");
+//   }
+// }
+//=====================================================================
+
+// let array = [1, 2, 3, 4, 5, 7, 2, 5, 0, -4];
+// counter = 1;
+
+// for (let i = 0; i < array.length; i++) {
+//   if (array[i] < counter) {
+//     counter = array[i];
+//   }
+// }
+// console.log(counter);
