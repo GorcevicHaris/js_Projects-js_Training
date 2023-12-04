@@ -5721,3 +5721,36 @@
 //   }
 // }
 // console.log(counter);
+//==================================================
+// function bubbleSort(arr) {
+//   let n = arr.length;
+//   for (let i = 0; i < n - 1; i++) {
+//     for (let j = 0; j < n - i - 1; j++) {
+//       if (arr[j] > arr[j + 1]) {
+//         let temp = arr[j];
+//         arr[j] = arr[j + 1];
+//         arr[j + 1] = temp;
+//       }
+//     }
+//   }
+//   return arr;
+// }
+////////////////////////
+// let array = [1, 11, 3, 4, 5, 1, 6, 1, 7, 2, 3, 4, 5, 6, 10];
+// const pusharray = [];
+// for (let i = array.length - 1; i > 5; i--) {
+//   console.log(array[i]);
+// }
+////////////////////////
+
+// //gleda koji po redu index ovde gleda ako je veci od 5 indexa vraca fga
+// let array = [1, 11, 3, 4, 5, 6, 1, 7, 2, 3, 4, 5, 6, 10];
+// for (let i = 10; i < array.length; i++) {
+//   console.log(array[i]);
+// }
+///ZNACI OVDE SE PRIKAZUJE SAMO IZNAD 10 INDEXA
+//================================================
+let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+for (let i = array.length - 1; i >= 5; i--) {
+  console.log(array[i]);
+}
