@@ -5965,3 +5965,19 @@
 // const rezultat = podijeliNiz(ulazniNiz, veličinaKomada);
 // console.log(rezultat);
 // //NIJE MI JASAN URADI GA KUCI NA DRUGACIJI NACIN IL NA OVAJ
+//====================================================================================
+// // Example of a while loop in JavaScript
+// let broj = 5;
+
+// while (broj > 0) {
+//   console.log(broj);
+//   broj--;
+// }
+// //====================================================================================
+// let counter = 1;
+
+// while (counter <= 5) {
+//   console.log(counter);
+//   counter++;
+// }
+// //====================================================================================
