@@ -5913,23 +5913,55 @@
 // console.log(counter.increment());
 // console.log(counter.currentValue());
 //====================================================================================
-function mathematic(a, b) {
-  let falsy = false;
-  object = {
-    math: function () {
-      if (!falsy) {
-        falsy = true;
-        return a + b;
-      } else {
-        return undefined;
-      }
-    },
-  };
-  return object;
-}
-const n1 = 5;
-const n2 = 10;
-const value = mathematic(n1, n2);
-console.log(value.math());
-console.log(value.math());
-console.log(value.math());
+////  2666. Allow One Function Call
+//// samo jednom se pokazuje resenje a + b nakon toga svaki put kada pozovem bice vrednost resenja undifined
+// function mathematic(a, b) {
+//   let falsy = false;
+//   object = {
+//     math: function () {
+//       if (!falsy) {
+//         falsy = true;
+//         return a + b;
+//       } else {
+//         return undefined;
+//       }
+//     },
+//   };
+//   return object;
+// }
+// const n1 = 5;
+// const n2 = 10;
+// const value = mathematic(n1, n2);
+// console.log(value.math());
+// console.log(value.math());
+// console.log(value.math());
+//====================================================================================
+// function podijeliNiz(arr, size) {
+//   if (size <= 0) {
+//     return "Veličina komada mora biti veća od 0.";
+//     //ovo je samo uslov da ne moze manje od 0 ili nula
+//   }
+//   const rezultat = [];
+
+//   function rekurzivnaPodela(start) {
+//     if (start >= arr.length) {
+//       return;
+//     }
+
+//     rezultat.push(arr.slice(start, start + size));
+//     console.log(start, start, size);
+//     rekurzivnaPodela(start + size);
+//   }
+
+//   rekurzivnaPodela(0);
+
+//   return rezultat;
+// }
+
+// // Primjer korištenja:
+// const ulazniNiz = [1, 2, 3, 4, 5, 6, 7, 8];
+// const veličinaKomada = 3;
+
+// const rezultat = podijeliNiz(ulazniNiz, veličinaKomada);
+// console.log(rezultat);
+// //NIJE MI JASAN URADI GA KUCI NA DRUGACIJI NACIN IL NA OVAJ
