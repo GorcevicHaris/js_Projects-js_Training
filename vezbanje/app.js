@@ -5840,4 +5840,11 @@
 // });
 
 // console.log(squaredArray); // Output: [1, 4, 9, 16, 25, 36, 49]
-//=====================================================
+//==========================================================================
+const array = [0, 1];
+for (let i = 2; i < 100; i++) {
+  //ovde pocinje od dva jer da sam stavio od 0 racunao array[-1] i array[-2] zato sto smo stavili minus
+  const newArray = array[i - 1] + array[i - 2];
+  array.push(newArray);
+  console.log(array);
+}
