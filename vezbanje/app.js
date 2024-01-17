@@ -5841,10 +5841,47 @@
 
 // console.log(squaredArray); // Output: [1, 4, 9, 16, 25, 36, 49]
 //==========================================================================
-const array = [0, 1];
-for (let i = 2; i < 100; i++) {
-  //ovde pocinje od dva jer da sam stavio od 0 racunao array[-1] i array[-2] zato sto smo stavili minus
-  const newArray = array[i - 1] + array[i - 2];
-  array.push(newArray);
-  console.log(array);
-}
+//// Generate Fibonacci Sequence
+// const array = [0, 1];
+// // [
+// //   0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584,
+// //   4181, 6765, 10946, 17711,
+// // ];
+// //ovo je primer kako funkcionise znaci ovo [i-1] je 1 a [i-2] je 0 je pocinje od indexa 2
+// for (let i = 2; i < 30; i++) {
+//   //ovde pocinje od dva jer da sam stavio od 0 racunao array[-1] i array[-2] zato sto smo stavili minus
+//   const newArray = array[i - 1] + array[i - 2];
+//   array.push(newArray);
+//   console.log(array);
+// }
+//==========================================================================
+// function createCounter(pocetnaVrednost) {
+//   const object = {
+//     increment: function () {
+//       pocetnaVrednost++;
+//     },
+//     decrement: function () {
+//       pocetnaVrednost--;
+//     },
+//     decrementAgain: function () {
+//       pocetnaVrednost--;
+//     },
+//     currentValue: function () {
+//       return pocetnaVrednost;
+//     },
+//   };
+//   return object;
+// }
+// const counter = createCounter(5);
+// console.log(counter.currentValue()); //ispis 5
+
+// counter.increment();
+// console.log(counter.currentValue()); // ispis 6
+
+// counter.decrement();
+// console.log(counter.currentValue()); //ispis 5
+
+// counter.decrementAgain();
+// console.log(counter.currentValue()); //ispis 4
+// //Znaci prvo ide ovo sto se returna object to znaci da se returna pocetna vrednost
+// //zatim sve posle nje redom
