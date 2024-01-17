@@ -5855,6 +5855,7 @@
 //   console.log(array);
 // }
 //==========================================================================
+// 2665. Brojač II
 // function createCounter(pocetnaVrednost) {
 //   const object = {
 //     increment: function () {
@@ -5885,3 +5886,50 @@
 // console.log(counter.currentValue()); //ispis 4
 // //Znaci prvo ide ovo sto se returna object to znaci da se returna pocetna vrednost
 // //zatim sve posle nje redom
+//=====================================================================================
+// //ovo je bolji nacin od povise koda
+// function createCounter(currentValue) {
+//   const object = {
+//     increment: function () {
+//       currentValue++;
+//       return currentValue;
+//     },
+//     decrement: function () {
+//       currentValue--;
+//       return currentValue;
+//     },
+//     currentValue: function () {
+//       currentValue;
+//       return currentValue;
+//     },
+//   };
+//   return object;
+// }
+// //Ovde ide prvo increment pa decrement pa currentvalue zato jer sam satavio na sve return
+// const number = 5;
+// const counter = createCounter(number);
+// console.log(counter.increment());
+// console.log(counter.increment());
+// console.log(counter.increment());
+// console.log(counter.currentValue());
+//====================================================================================
+function mathematic(a, b) {
+  let falsy = false;
+  object = {
+    math: function () {
+      if (!falsy) {
+        falsy = true;
+        return a + b;
+      } else {
+        return undefined;
+      }
+    },
+  };
+  return object;
+}
+const n1 = 5;
+const n2 = 10;
+const value = mathematic(n1, n2);
+console.log(value.math());
+console.log(value.math());
+console.log(value.math());
