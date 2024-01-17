@@ -5784,19 +5784,49 @@
 // const newArray = array.reduce((previous, current) => previous + current);
 
 // console.log(newArray);
-//=======================================
+//==========================================
 
-function makeCounter(startN) {
-  function secondFunction() {
-    startN++;
-    return startN;
-  }
-  return secondFunction;
-}
-const number = 10;
-let myCounter = makeCounter(number);
-//zato sto imaju dve funkcije stavljamo ovako i prosledjujemo u myCounter
+// function makeCounter(startN) {
+//   function secondFunction() {
+//     let currentValue = startN;
+//     //pocinjace od pocetne vrednosti i povecava ce se svaki put kada se pozove za 1
+//     startN++;
+//     return currentValue;
+//   }
+//   return secondFunction;
+//   g;
+// }
+// const number = 10;
+// let myCounter = makeCounter(number);
+// //zato sto imaju dve funkcije stavljamo ovako i prosledjujemo u myCounter
 
-console.log(myCounter());
-console.log(myCounter());
-console.log(myCounter());
+// console.log(myCounter());
+// console.log(myCounter());
+// console.log(myCounter());
+//=====================================================
+// // PRONLAZENJE ZADNJEG INDEXA
+// let array = [1, 2, 3, 4, 5];
+// const niz = array.length - 1;
+
+// const array2 = [];
+// const niz2 = array2.length - 1;
+
+// console.log(array[niz]);
+// if (array[niz2]) {
+//   console.log(array[niz2]);
+// } else {
+//   console.log(-1);
+// }
+//=====================================================
+// const niz = [1, 2, 3, 2345345, 5];
+
+// const filteredArray = niz.filter((el) => el % 2 === 0);
+
+// console.log(filteredArray);
+//=====================================================
+// const array = [1, 2, 3, 4, 5, 6, 7];
+
+// const multiplication = array.map((el) => el * el);
+
+// console.log(multiplication);
+//=====================================================
