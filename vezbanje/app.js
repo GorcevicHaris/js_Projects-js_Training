@@ -5750,7 +5750,53 @@
 // }
 ///ZNACI OVDE SE PRIKAZUJE SAMO IZNAD 10 INDEXA
 //================================================
-let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-for (let i = array.length - 1; i >= 5; i--) {
-  console.log(array[i]);
+// let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// for (let i = array.length - 1; i >= 5; i--) {
+//   console.log(array[i]);
+// }
+//=====================================================
+// let array = [1, 2, 3, 5, 7];
+// let reversedArray = [];
+
+// for (let i = array.length - 1; i >= 0; i--) {
+//   reversedArray.push(array[i]);
+// }
+
+// console.log(reversedArray);
+//==========================================================
+// let array = [1, 2, 3, 5, 6, 3];
+
+// let count = 0;
+// for (let i = 0; i < array.length; i++) {
+//   for (let y = 0; y < array.length; y++) {
+//     if (array[i] > array[y]) {
+//       let newI = array[y];
+//       array[y] = array[i];
+//       array[i] = newI;
+//     }
+//   }
+// }
+
+// console.log(array);
+//=======================================
+// const array = [1, 2, 3, 4, 5];
+
+// const newArray = array.reduce((previous, current) => previous + current);
+
+// console.log(newArray);
+//=======================================
+
+function makeCounter(startN) {
+  function secondFunction() {
+    startN++;
+    return startN;
+  }
+  return secondFunction;
 }
+const number = 10;
+let myCounter = makeCounter(number);
+//zato sto imaju dve funkcije stavljamo ovako i prosledjujemo u myCounter
+
+console.log(myCounter());
+console.log(myCounter());
+console.log(myCounter());
