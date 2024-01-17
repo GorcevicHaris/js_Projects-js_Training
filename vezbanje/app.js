@@ -5830,3 +5830,14 @@
 
 // console.log(multiplication);
 //=====================================================
+// const array = [1, 2, 3, 4, 5, 6, 7];
+// let squaredArray = [];
+
+// array.forEach((element) => {
+//   let multiplication = element * element;
+
+//   squaredArray.push(multiplication);
+// });
+
+// console.log(squaredArray); // Output: [1, 4, 9, 16, 25, 36, 49]
+//=====================================================
