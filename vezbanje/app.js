@@ -5939,21 +5939,15 @@
 // function podijeliNiz(arr, size) {
 //   if (size <= 0) {
 //     return "Veličina komada mora biti veća od 0.";
-//     //ovo je samo uslov da ne moze manje od 0 ili nula
 //   }
+
 //   const rezultat = [];
+//   let start = 0;
 
-//   function rekurzivnaPodela(start) {
-//     if (start >= arr.length) {
-//       return;
-//     }
-
+//   while (start < arr.length) {
 //     rezultat.push(arr.slice(start, start + size));
-//     console.log(start, start, size);
-//     rekurzivnaPodela(start + size);
+//     start += size;
 //   }
-
-//   rekurzivnaPodela(0);
 
 //   return rezultat;
 // }
@@ -5964,6 +5958,7 @@
 
 // const rezultat = podijeliNiz(ulazniNiz, veličinaKomada);
 // console.log(rezultat);
+
 // //NIJE MI JASAN URADI GA KUCI NA DRUGACIJI NACIN IL NA OVAJ
 //====================================================================================
 // // Example of a while loop in JavaScript
@@ -5981,3 +5976,24 @@
 //   counter++;
 // }
 // //====================================================================================
+// function expect(currentValue) {
+//   object = {
+//     isTheSame: function (value) {
+//       if (currentValue === value) {
+//         return "isti je";
+//       } else {
+//         return "nije isti";
+//       }
+//     },
+//     isNotTheSame: function (value) {
+//       if (currentValue !== value) {
+//         return "nije isti";
+//       } else {
+//         return "isti je ";
+//       }
+//     },
+//   };
+//   return object;
+// }
+
+// console.log(expect(10).isNotTheSame(102));
