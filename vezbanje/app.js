@@ -6006,3 +6006,11 @@
 // }
 // console.log(counter);
 // //====================================================================================
+function argumentsLength() {
+  return arguments.length;
+}
+
+// Primjer korištenja
+console.log(argumentsLength(1, "hello", true)); // Ispisat će 3
+console.log(argumentsLength("apple", 42)); // Ispisat će 2
+console.log(argumentsLength()); // Ispisat će 0
