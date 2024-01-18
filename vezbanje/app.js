@@ -5997,3 +5997,12 @@
 // }
 
 // console.log(expect(10).isNotTheSame(102));
+// //====================================================================================
+// //sabiranje broejva za for petljom
+// const array = [1, 2, 3, 4, 5, 20];
+// let counter = 0;
+// for (let i = 0; i < array.length; i++) {
+//   counter += array[i];
+// }
+// console.log(counter);
+// //====================================================================================
