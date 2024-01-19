@@ -6041,3 +6041,22 @@
 // });
 
 // myPromise.then((res) => console.log(res)).catch((err) => console.log(err));
+// //====================================================================================
+// //Sort this Array sortirano sa dve for petlje
+// const array = [1, 5, 7, 3, 2];
+
+// for (let i = 0; i < array.length; i++) {
+//   for (let y = 0; y < array.length; y++) {
+//     if (array[i] > array[y]) {
+//       const element = array[i];
+//       array[i] = array[y];
+//       array[y] = element;
+//     }
+//   }
+// }
+// console.log(array);
+// //====================================================================================
+const array = [1, 5, 7, 3, 2];
+let counter = 0;
+for (let i = 0; i < array.length; i++) {}
+console.log(array);
