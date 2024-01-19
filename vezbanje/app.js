@@ -6025,3 +6025,19 @@
 // }
 // console.log(timeOutFunction(3320));
 // //====================================================================================
+// // Racunannje da li je pod uslovom broj veci od broja pod argumentom preko promisa
+// const myPromise = new Promise((resolve, reject) => {
+//   function additingNumbers(num1, num2) {
+//     const num3 = num1 + num2;
+//     setTimeout(() => {
+//       if (10 > num3) {
+//         resolve(`10 je veci od broja ${num3}`);
+//       } else {
+//         reject(`10 nije veci od broja ${num3}`);
+//       }
+//     }, 3000);
+//   }
+//   additingNumbers(20, 1);
+// });
+
+// myPromise.then((res) => console.log(res)).catch((err) => console.log(err));
