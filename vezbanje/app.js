@@ -6016,3 +6016,12 @@
 // console.log(argumentsLength("apple", 42)); // Ispisat će 2
 // console.log(argumentsLength()); // Ispisat će 0
 // //====================================================================================
+// //Prikazvianje vremena za koliko ce mi stici console.log sa argumentima
+// function timeOutFunction(time) {
+//   setTimeout(() => {
+//     console.log(`za ${time} vremena je stigao console.log`);
+//   }, time);
+//   return `Pozvana funkcija s vremenom ${time} ms.`;
+// }
+// console.log(timeOutFunction(3320));
+// //====================================================================================
