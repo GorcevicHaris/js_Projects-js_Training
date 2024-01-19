@@ -5954,7 +5954,7 @@
 
 // // Primjer korištenja:
 // const ulazniNiz = [1, 2, 3, 4, 5, 6, 7, 8];
-// const veličinaKomada = 3;
+// const veličinaKomada = 2;
 
 // const rezultat = podijeliNiz(ulazniNiz, veličinaKomada);
 // console.log(rezultat);
@@ -6006,11 +6006,13 @@
 // }
 // console.log(counter);
 // //====================================================================================
-function argumentsLength() {
-  return arguments.length;
-}
+// function argumentsLength(arg) {
+//   return arguments.length;
+//   //sa argom bi merio samo u nizu klk ima argumenata
+// }
 
-// Primjer korištenja
-console.log(argumentsLength(1, "hello", true)); // Ispisat će 3
-console.log(argumentsLength("apple", 42)); // Ispisat će 2
-console.log(argumentsLength()); // Ispisat će 0
+// // Primjer korištenja
+// console.log(argumentsLength(1, "hello", true)); // Ispisat će 3
+// console.log(argumentsLength("apple", 42)); // Ispisat će 2
+// console.log(argumentsLength()); // Ispisat će 0
+// //====================================================================================
