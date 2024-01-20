@@ -1953,6 +1953,7 @@
 // let somearray = niz.reduce((el1,el2)=> el2 / el1)
 
 // console.log(somearray);
+//====================================================================================
 
 // Definirajmo objekt osobe
 // let osoba = {
@@ -1960,7 +1961,9 @@
 //   godine: 30,
 //   predstaviSe: function() {
 //     console.log("Pozdrav, ja sam " + this.ime + " i imam " + this.godine + " godina.");
+//     return 'blablabla'
 //   }
+
 // };
 
 // // Pozovimo metodu predstaviSe na objektu osoba
@@ -4547,21 +4550,6 @@
 //   console.log('malih slova ima vise a ima ih',counter);
 // }
 //===============================================================================
-
-// let polindrom = "anavolimilovana";
-
-// for (i = polindrom.length - 1; i >= 0; i--) {
-//   // console.log(polindrom[i]);
-// }
-// for (y = 0; y < polindrom.length; y++) {
-//   // console.log(polindrom[y]);
-// }
-// if (polindrom[i] == polindrom[y]) {
-//   console.log("polindrom su");
-// } else {
-//   console.log("nisu");
-// }
-//=====================================================================
 // const prviPromis = new Promise ((res,rej)=>{
 //   setTimeout(() => {
 //   let age = prompt('unesi godine');
@@ -5638,28 +5626,13 @@
 // console.log(faktorijel(5));
 //=========================================================
 // let ime = "ana";
-
-// for (y = 0; y < ime.length; y++) {
-//   console.log(ime[y], "prvi");
-// }
-// for (i = ime.length - 1; i >= ime[0]; i--) {
-//   console.log(ime[i], "drugi");
-// }
-
-// if (ime[i] === ime[y]) {
-//   console.log("polindrom su ");
-// } else {
-//   console.log("nisu");
-// }
-// ///==================================================
-
-// let ime = "sana";
 // let array = [];
 // array.push(ime);
-// console.log(ime === ime.split("").reverse().join("") ? "jeste" : "nije");
-//
+// console.log(ime.split("").join(""));
+// ime.split("").reverse().join("") === ime
+//   ? console.log("polindrom su")
+//   : console.log("nisu");
 // let ime = "ana";
-
 // console.log(ime === ime.split("").reverse().join("") ? "jeste" : "nije");
 //===============================================
 // let ime = ["ha,n,a"];
@@ -6056,7 +6029,14 @@
 // }
 // console.log(array);
 // //====================================================================================
-const array = [1, 5, 7, 3, 2];
-let counter = 0;
-for (let i = 0; i < array.length; i++) {}
-console.log(array);
+// const array = [1, 5, 7, 3, 2];
+// let counter = 0;
+// for (let i = 0; i < array.length; i++) {}
+// console.log(array);
+// //====================================================================================
+
+const polindrom = "ana";
+
+polindrom.split("").reverse().join("") === polindrom
+  ? console.log("polindrom su")
+  : console.log("nisu");
