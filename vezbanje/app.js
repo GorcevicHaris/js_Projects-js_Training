@@ -6080,3 +6080,11 @@
 // // );
 // // //  1: previousValue = "hello", currentValue = "doctor"
 // // //  2: previousValue = "doctor", currentValue = "programmer"
+// //====================================================================================
+const array = ["hello", "doctor", "programmer"];
+let najduziString = "";
+for (let i = 0; i < array.length; i++) {
+  najduziString =
+    array[i].length > najduziString.length ? array[i] : najduziString;
+}
+console.log(najduziString, najduziString.length);
