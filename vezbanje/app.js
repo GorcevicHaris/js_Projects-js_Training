@@ -6034,9 +6034,41 @@
 // for (let i = 0; i < array.length; i++) {}
 // console.log(array);
 // //====================================================================================
+// //Polindrom
+// const polindrom = 12231;
 
-const polindrom = "ana";
+// console.log(polindrom.toString().split("").reverse().join(""));
+// parseInt(polindrom.toString().split("").reverse().join("")) === polindrom
+//   ? console.log("polindrom su")
+//   : console.log("nisu");
+// //====================================================================================
+// // Removamo neke brojeve i posle toga merimo njegov length
+// const niz = [1, 2, 3, 4, 5, 6, 7, 3, 3];
+// let array = [];
+// const filiteredArray = niz.filter((el) => {
+//   if (el !== 3) {
+//     array.push(el);
+//   }
+// });
 
-polindrom.split("").reverse().join("") === polindrom
-  ? console.log("polindrom su")
-  : console.log("nisu");
+// console.log(array.length);
+// console.log(array);
+
+// console.log(filiteredArray);
+// //====================================================================================
+// //Trazanje indexa preko findindex metode
+// const array = [1, 4, 6, 4, "hello", 0, 55];
+// const helo = "hello";
+// const findIndexMethod = array.findIndex((index) => index === helo);
+
+// console.log(findIndexMethod);
+// //====================================================================================
+// // Druga metoda za trazenje indexa
+// const array = [1, 2, 3];
+
+// index = array.indexOf(3);
+
+// console.log(index);
+// //====================================================================================
+const array = ["hello", "doctor", "programmer"];
+//uradi kuci treba pronaci najveci length od strinogva u nizu
