@@ -6070,5 +6070,13 @@
 
 // console.log(index);
 // //====================================================================================
-const array = ["hello", "doctor", "programmer"];
-//uradi kuci treba pronaci najveci length od strinogva u nizu
+// const array = ["hello", "doctor", "programmer"];
+// // const theLongestString = array.reduce((previous, current) => {
+// //   return previous.length > current.length ? previous : current;
+// // });
+
+// // console.log(
+// //   `najduzi string u nizu je ${theLongestString} i ima ${theLongestString.length} slova`
+// // );
+// // //  1: previousValue = "hello", currentValue = "doctor"
+// // //  2: previousValue = "doctor", currentValue = "programmer"
