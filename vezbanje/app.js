@@ -5896,7 +5896,7 @@
 //         falsy = true;
 //         return a + b;
 //       } else {
-//         return undefined;
+//         return null;
 //       }
 //     },
 //   };
@@ -6081,10 +6081,44 @@
 // // //  1: previousValue = "hello", currentValue = "doctor"
 // // //  2: previousValue = "doctor", currentValue = "programmer"
 // //====================================================================================
-const array = ["hello", "doctor", "programmer"];
-let najduziString = "";
-for (let i = 0; i < array.length; i++) {
-  najduziString =
-    array[i].length > najduziString.length ? array[i] : najduziString;
-}
-console.log(najduziString, najduziString.length);
+// const array = ["hello", "doctor", "programmer"];
+// let najduziString = "";
+// for (let i = 0; i < array.length; i++) {
+//   najduziString =
+//     array[i].length > najduziString.length ? array[i] : najduziString;
+// }
+// console.log(najduziString, najduziString.length);
+// //====================================================================================
+// function debounce(currentValue, time) {
+//   setTimeout(() => {
+//     console.log(currentValue);
+//   }, time);
+//   return null;
+// }
+
+// console.log(debounce("100", 1000));
+// console.log(debounce("1200", 1000));
+// console.log(debounce("130", 1000));
+
+// function debounce(value, time) {
+//   let falsy = false;
+//   object = {
+//     math: function () {
+//       if (!falsy) {
+//         falsy = true;
+//         return null;
+//       } else {
+//         setTimeout(() => {
+//           return value;
+//         }, time);
+//       }
+//     },
+//   };
+//   return object;
+// }
+// const string = (e) => debounce(e, 2000);
+// console.log(string("test").math());
+// console.log(string("test2").math());
+// console.log(string("test3").math());
+// console.log(string("test4").math());
+// console.log(string("test5").math());
