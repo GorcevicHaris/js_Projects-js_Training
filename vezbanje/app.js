@@ -5760,22 +5760,51 @@
 //==========================================
 
 // function makeCounter(startN) {
-//   function secondFunction() {
-//     let currentValue = startN;
-//     //pocinjace od pocetne vrednosti i povecava ce se svaki put kada se pozove za 1
+//   function counter() {
 //     startN++;
-//     return currentValue;
+//     return startN;
 //   }
-//   return secondFunction;
-//   g;
+
+//   return counter;
 // }
 // const number = 10;
 // let myCounter = makeCounter(number);
-// //zato sto imaju dve funkcije stavljamo ovako i prosledjujemo u myCounter
 
 // console.log(myCounter());
 // console.log(myCounter());
 // console.log(myCounter());
+// let a = 5;
+
+// function inc() {
+//   a++;
+// }
+// inc();
+// console.log("aA-", a);
+
+// inc();
+
+// console.log("a-", a);
+
+// function makeCounter(currentValue) {
+//   object = {
+//     increment: function () {
+//       currentValue++;
+//       return currentValue;
+//     },
+//     decrement: function () {
+//       currentValue--;
+//       return currentValue;
+//     },
+//   };
+//   return object;
+// }
+// let number = 10;
+// let counter = makeCounter(number);
+// console.log(counter.increment());
+// console.log(counter.increment());
+// console.log(counter.increment());
+// console.log(counter.decrement());
+
 //=====================================================
 // // PRONLAZENJE ZADNJEG INDEXA
 // let array = [1, 2, 3, 4, 5];
@@ -6122,3 +6151,12 @@
 // console.log(string("test3").math());
 // console.log(string("test4").math());
 // console.log(string("test5").math());
+// //====================================================================================
+let array = [1, 2, 3, 4, 5];
+let emptyArray = [array[0]];
+for (let i = 0; i < array.length - 1; i++) {
+  const element = emptyArray[i] + array[i + 1];
+  emptyArray.push(element);
+}
+
+console.log(emptyArray);
