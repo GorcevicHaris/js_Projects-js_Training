@@ -6151,12 +6151,22 @@
 // console.log(string("test3").math());
 // console.log(string("test4").math());
 // console.log(string("test5").math());
-// //====================================================================================
-// let array = [1, 2, 3, 4, 5, 20];
-// let emptyArray = [array[0]];
-// for (let i = 0; i < array.length - 1; i++) {
-//   const element = emptyArray[i] + array[i + 1];
-//   emptyArray.push(element);
-// }
+// // //====================================================================================
+// // let array = [1, 2, 3, 4, 5, 20];
+// // let emptyArray = [array[0]];
+// // for (let i = 0; i < array.length - 1; i++) {
+// //   const element = emptyArray[i] + array[i + 1];
+// //   emptyArray.push(element);
+// // }
 
-// console.log(emptyArray);
+// // console.log(emptyArray);
+// // //====================================================================================
+
+// const obj2 = { number1: 1, number2: 2, number3: 3 };
+// const values = Object.values(obj2);
+// if (values.length > 0) {
+//   console.log(`obj ima ${values.length} duzinu `);
+// } else {
+//   console.log(`Obj je prazann`);
+// }
+// //====================================================================================
