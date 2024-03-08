@@ -6176,3 +6176,23 @@
 //   const element = primaryArray[i] + array[i + 1];
 //   primaryArray.push(element);
 // }
+// //====================================================================================
+// //pronadji najmanji string
+// let array = ["hello", "doctor", "programmer", "dr"];
+// let theShortestString = array[0];
+// for (let i = 0; i < array.length; i++) {
+//   if (array[i].length < theShortestString.length) {
+//     theShortestString = array[i];
+//   }
+// }
+// console.log(theShortestString);
+// //====================================================================================
+// //pronadji najveci string
+// let array = ["hello", "doctor", "programmer"];
+// let theLongestString = "";
+// for (let i = 0; i < array.length; i++) {
+//   if (array[i].length > theLongestString.length) {
+//     theLongestString = array[i];
+//   }
+// }
+// console.log("The longest string is:", theLongestString);
