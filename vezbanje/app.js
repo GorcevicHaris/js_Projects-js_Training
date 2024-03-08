@@ -6100,15 +6100,15 @@
 // console.log(index);
 // //====================================================================================
 // const array = ["hello", "doctor", "programmer"];
-// // const theLongestString = array.reduce((previous, current) => {
-// //   return previous.length > current.length ? previous : current;
-// // });
+// const theLongestString = array.reduce((previous, current) => {
+//   return previous.length > current.length ? previous : current;
+// });
 
-// // console.log(
-// //   `najduzi string u nizu je ${theLongestString} i ima ${theLongestString.length} slova`
-// // );
-// // //  1: previousValue = "hello", currentValue = "doctor"
-// // //  2: previousValue = "doctor", currentValue = "programmer"
+// console.log(
+//   `najduzi string u nizu je ${theLongestString} i ima ${theLongestString.length} slova`
+// );
+//  1: previousValue = "hello", currentValue = "doctor"
+//  2: previousValue = "doctor", currentValue = "programmer"
 // //====================================================================================
 // const array = ["hello", "doctor", "programmer"];
 // let najduziString = "";
@@ -6196,3 +6196,39 @@
 //   }
 // }
 // console.log("The longest string is:", theLongestString);
+// //====================================================================================
+// //pronadji srednju velicinu stringa dva nacina
+// let array = ["hello", "doctor", "programmer"];
+// let smallestString = array[0];
+// let thelongestString = "";
+// let theMiddlestring = array[0];
+// for (let i = 0; i < array.length; i++) {
+//   if (array[i].length < smallestString.length) {
+//     smallestString = array[i];
+//   }
+// }
+// for (let y = 0; y < array.length; y++) {
+//   if (array[y].length > thelongestString.length) {
+//     thelongestString = array[y];
+//   }
+// }
+
+// for (let u = 0; u < array.length; u++) {
+//   if (
+//     array[u].length > smallestString.length &&
+//     array[u].length < thelongestString.length
+//   ) {
+//     theMiddlestring = array[u];
+//   }
+// }
+
+// console.log(theMiddlestring);
+// //====================================================================================
+// const array = ["hello", "doctor", "programmer"];
+
+// const theLongestString = array.reduce((previous, current) => {
+//   return previous.length > current.length ? previous : current;
+// });
+
+// console.log(theLongestString);
+// //====================================================================================
