@@ -6229,6 +6229,6 @@
 // const theLongestString = array.reduce((previous, current) => {
 //   return previous.length > current.length ? previous : current;
 // });
-
+//
 // console.log(theLongestString);
 // ===================================================================================
