@@ -6238,3 +6238,32 @@
 // });
 // const filteredArray = newArray.filter((el) => el % 2 === 0);
 // console.log(filteredArray);
+// ===================================================================================
+// const array = [1, 2, 3, 4, 2, 2];
+
+// const index = array.findIndex((element) => element === 2);
+
+// console.log(index);
+// ===================================================================================
+// const array = [1, 2, 3, 4, 2, 2];
+
+// const index = array.includes(2);
+// console.log(index);
+// ===================================================================================
+// const array = [1, 2, 3, 4, 2, 2];
+
+// const index = array.indexOf(2);
+
+// console.log(index);
+// ===================================================================================
+// //pronalazenje indexa u nizu
+// const array = [1, 2, 3, 2, 4, 2, 5];
+// const indexes = [];
+
+// array.filter((element, index) => {
+//   if (element === 2) {
+//     indexes.push(index);
+//   }
+// });
+
+// console.log(indexes);
