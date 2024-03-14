@@ -6232,3 +6232,9 @@
 //
 // console.log(theLongestString);
 // ===================================================================================
+// const array = [1, 2, 3, 4];
+// const newArray = array.sort((a, b) => {
+//   return b - a;
+// });
+// const filteredArray = newArray.filter((el) => el % 2 === 0);
+// console.log(filteredArray);
