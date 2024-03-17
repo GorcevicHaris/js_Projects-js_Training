@@ -6268,14 +6268,21 @@
 
 // console.log(indexes);
 // ===================================================================================
-const array = [1, 2, 3, 4, 5, 6, 2, 2];
-const emptyArray = [];
+// const array = [1, 2, 3, 4, 5, 6, 2, 2];
+// const emptyArray = [];
 
-const findIndex = array.filter((data, index) => {
-  if (data === 2) {
-    emptyArray.push(index);
-  } else {
-    return null;
-  }
-});
-console.log(emptyArray);
+// const findIndex = array.filter((data, index) => {
+//   if (data === 2) {
+//     emptyArray.push(index);
+//   } else {
+//     return null;
+//   }
+// });
+// console.log(emptyArray);
+// ===================================================================================
+// let ime = "anas";
+
+// ime.split("").reverse().join("") === "ana"
+//   ? console.log(ime)
+//   : console.log("nije pravi ");
+// ===================================================================================
