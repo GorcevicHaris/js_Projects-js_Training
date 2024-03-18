@@ -6286,3 +6286,9 @@
 //   ? console.log(ime)
 //   : console.log("nije pravi ");
 // ===================================================================================
+// const array = ["haris", "semra", "hamza"];
+// let element = array.pop();
+// console.log(array);
+// console.log(element);
+// console.log(element.length);
+// for (let i = 0; i < array.length; i++) {}
