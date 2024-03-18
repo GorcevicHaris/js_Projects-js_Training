@@ -6292,3 +6292,9 @@
 // console.log(element);
 // console.log(element.length);
 // for (let i = 0; i < array.length; i++) {}
+// ===================================================================================
+let array = ["haris", "semra", "hamza"];
+
+let lastIndex = array[array.length - 1];
+
+console.log(lastIndex);
