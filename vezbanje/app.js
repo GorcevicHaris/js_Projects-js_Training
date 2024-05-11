@@ -6315,3 +6315,12 @@
 // for (let i = 0; i < array.length; i++) {
 //   console.log((number += array[i]));
 // }
+// // ===================================================================================
+let array = [1, 2, 3, 4, 5];
+let bin = [];
+for (let i = 0; i < array.length - 1; i++) {
+  const element = array[i] + array[i + 1];
+  bin.push(element);
+}
+
+console.log(bin);
