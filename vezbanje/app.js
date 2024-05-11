@@ -5961,7 +5961,6 @@
 // const rezultat = podijeliNiz(ulazniNiz, veličinaKomada);
 // console.log(rezultat);
 
-// //NIJE MI JASAN URADI GA KUCI NA DRUGACIJI NACIN IL NA OVAJ
 //====================================================================================
 // // Example of a while loop in JavaScript
 // let broj = 5;
@@ -6304,8 +6303,15 @@
 
 // console.log(lastIndex);
 
-// ===================================================================================
-let array = ["haris", "hamza"];
-let lastIndex = array[array.length - 1];
+// // ===================================================================================
+// let array = ["haris", "hamza"];
+// let lastIndex = array[array.length - 1];
 
-console.log(lastIndex);
+// console.log(lastIndex);
+// // ===================================================================================
+// let array = [1, 2, 3, 4, 5, 6];
+// let bin = [];
+// let number = 0;
+// for (let i = 0; i < array.length; i++) {
+//   console.log((number += array[i]));
+// }
