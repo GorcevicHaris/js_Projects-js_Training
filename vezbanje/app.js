@@ -6303,24 +6303,59 @@
 
 // console.log(lastIndex);
 
-// // ===================================================================================
+//  ===================================================================================
 // let array = ["haris", "hamza"];
 // let lastIndex = array[array.length - 1];
 
 // console.log(lastIndex);
-// // ===================================================================================
+//  ===================================================================================
 // let array = [1, 2, 3, 4, 5, 6];
 // let bin = [];
 // let number = 0;
 // for (let i = 0; i < array.length; i++) {
 //   console.log((number += array[i]));
 // }
-// // ===================================================================================
-let array = [1, 2, 3, 4, 5];
-let bin = [];
-for (let i = 0; i < array.length - 1; i++) {
-  const element = array[i] + array[i + 1];
-  bin.push(element);
-}
+//  ===================================================================================
+// let array = [1, 2, 3, 4, 5];
+// let bin = [];
+// for (let i = 0; i < array.length - 1; i++) {
+//   const element = array[i] + array[i + 1];
+//   bin.push(element);
+// }
 
-console.log(bin);
+// console.log(bin);
+// ===================================================================================
+// let ime = "haris";
+// let username = "erhadharis";
+// if (ime.includes(username)) {
+//   console.log("ok");
+// } else {
+//   clg
+// }
+// ===================================================================================
+// // const array = [1, 2, 3];
+// // for (let i = 0; i < array.length; i++) {
+// //   const lastElement = array[i][array[i].length - 1];
+// //   console.log(lastElement, "ashadas");
+// //   const element = array[i];
+// //   console.log(element);
+// // }
+// // clg
+// console.log("adasdda");
+// console.log("asdas");
+// console.log("first");
+// console.log(first);
+//============================================================================================================
+// let array = [1, 2, 3, 4, 5, 6];
+// let evenNumbers = [];
+// let oddNumber = [];
+// for (let i = 0; i < array.length; i++) {
+//   if (array[i] % 2 === 0) {
+//     evenNumbers.push(array[i]);
+//   } else {
+//     oddNumber.push(array[i]);
+//   }
+// }
+
+// console.log(evenNumbers, "emptyArray", oddNumber, "neparni");
+//============================================================================================================
