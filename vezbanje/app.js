@@ -6343,7 +6343,7 @@
 // // clg
 // console.log("adasdda");
 // console.log("asdas");
-// console.log("first");
+// console.log("first");q
 // console.log(first);
 //============================================================================================================
 // let array = [1, 2, 3, 4, 5, 6];
@@ -6359,3 +6359,10 @@
 
 // console.log(evenNumbers, "emptyArray", oddNumber, "neparni");
 //============================================================================================================
+// // Fibonaccijev zadatak
+// let array = [0, 1];
+// for (let i = 0; i <= 100; i++) {
+//   const newArr = array[i + 1] + array[i];
+//   array.push(newArr);
+// }
+// console.log(array);
